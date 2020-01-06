@@ -1,0 +1,22 @@
+﻿<Window x:Class="TicTacToeTermProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TicTacToeTermProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="718" Width="687" Background="#FFECECEC">
+    <Grid Margin="0,0,3,-2.333">
+        <Button Content="" HorizontalAlignment="Left" Margin="65,78,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="247,78,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="429,78,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="65,243,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="247,243,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="429,243,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="65,408,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="247,408,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="429,408,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="32" Margin="260,587,0,0" VerticalAlignment="Top" Width="145"/>
+
+    </Grid>
+</Window>
