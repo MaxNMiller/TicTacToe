@@ -7,20 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="718" Width="687" Background="#FFECECEC">
     <Grid Margin="0,0,3,-2.333">
-        <Button Content="" HorizontalAlignment="Left" Margin="65,78,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="247,78,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="429,78,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="65,243,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="247,243,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="429,243,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="65,408,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="247,408,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="429,408,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36"/>
-        <Button x:Name="restartButton" Content="Restart" HorizontalAlignment="Left" Height="32" Margin="260,587,0,0" VerticalAlignment="Top" Width="145"/>
+        <Button x:Name="A1" Content="" HorizontalAlignment="Left" Margin="65,78,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36" Click="A1_Click"/>
+        <Button x:Name="A2" Content="" HorizontalAlignment="Left" Margin="247,78,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36" Click="A2_Click"/>
+        <Button x:Name="A3" Content="" HorizontalAlignment="Left" Margin="429,78,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36" Click="A3_Click"/>
+        <Button x:Name="B1" Content="" HorizontalAlignment="Left" Margin="65,243,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36" Click="B1_Click"/>
+        <Button x:Name="B2" Content="" HorizontalAlignment="Left" Margin="247,243,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36" Click="B2_Click"/>
+        <Button x:Name="B3" Content="" HorizontalAlignment="Left" Margin="429,243,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36" Click="B3_Click"/>
+        <Button x:Name="C1" Content="" HorizontalAlignment="Left" Margin="65,408,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36" Click="C1_Click"/>
+        <Button x:Name="C2" Content="" HorizontalAlignment="Left" Margin="247,408,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36" Click="C2_Click"/>
+        <Button x:Name="C3" Content="" HorizontalAlignment="Left" Margin="429,408,0,0" VerticalAlignment="Top" Width="177" Height="160" FontFamily="Microsoft Sans Serif" FontSize="36" Click="C3_Click"/>
+        <Button x:Name="restartButton" Content="Restart" HorizontalAlignment="Left" Height="32" Margin="261,10,0,0" VerticalAlignment="Top" Width="145" Click="RestartButton_Click"/>
         <Label x:Name="playerOneLabel" Content="PLAYER 1" HorizontalAlignment="Left" Height="27" Margin="65,586,0,0" VerticalAlignment="Top" Width="97" FontFamily="Microsoft Sans Serif" FontSize="18" Foreground="#FF39AD3C"/>
         <Label x:Name="playerTwoLabel" Content="PLAYER 2" HorizontalAlignment="Left" Height="27" Margin="509,587,0,0" VerticalAlignment="Top" Width="97" FontFamily="Microsoft Sans Serif" FontSize="18" Foreground="#FFAD3939"/>
         <Label x:Name="playerOneScore" Content="0" HorizontalAlignment="Left" Height="51" Margin="94,618,0,0" VerticalAlignment="Top" Width="33" FontFamily="Microsoft Sans Serif" FontSize="36" Foreground="Black"/>
         <Label x:Name="playerTwoScore" Content="0" HorizontalAlignment="Left" Height="51" Margin="542,618,0,0" VerticalAlignment="Top" Width="33" FontFamily="Microsoft Sans Serif" FontSize="36" Foreground="Black"/>
+        <Button x:Name="RoboButton" Content="Computer Start 1st" HorizontalAlignment="Left" VerticalAlignment="Top" Width="177" Margin="247,56,0,0" RenderTransformOrigin="1.007,1.569" FontFamily="Microsoft Sans Serif" Click="RoboButton_Click"/>
+        <Label Content="DRAW" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="306,584,0,0" FontSize="18" Background="{x:Null}" Foreground="#FF04579C" RenderTransformOrigin="0.238,0.358"/>
+        <Label x:Name="DrawScore" Content="0" HorizontalAlignment="Left" Height="51" Margin="321,618,0,0" VerticalAlignment="Top" Width="85" FontFamily="Microsoft Sans Serif" FontSize="36" Foreground="Black"/>
 
     </Grid>
 </Window>
